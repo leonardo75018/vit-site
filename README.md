@@ -30,21 +30,12 @@ La plateforme aura les suivantes fonctionnalités :
   - Affiche les détails de chaque événement, y compris la date, l'heure, le lieu et une brève description.
 
 - Proposer des idées de vidéos
-- Permet aux utilisateurs de soumettre des idées de vidéos pour le média VIT+.
-- Les utilisateurs peuvent fournir un titre et une description de leur idée de vidéo.
-- Les soumissions sont envoyées a VIT+ et par la suite l’utilisateur peut suivre le statu de son idée
+
+  - Permet aux utilisateurs de soumettre des idées de vidéos pour le média VIT+.
+  - Les utilisateurs peuvent fournir un titre et une description de leur idée de vidéo.
+  - Les soumissions sont envoyées a VIT+ et par la suite l’utilisateur peut suivre le statu de son idée
 
 - Associations
-- Présente des informations sur les associations susceptibles d'aider les jeunes de la protection à l’enfance.
-- Comprend une description de chaque association, des vidéos, des photos et des événements pertinents.
 
-## Table des Matières
-
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
-- [Auteurs](#auteurs)
-- [Remerciements](#remerciements)
-
-## Installation
+  - Présente des informations sur les associations susceptibles d'aider les jeunes de la protection à l’enfance.
+  - Comprend une description de chaque association, des vidéos, des photos et des événements pertinents.
