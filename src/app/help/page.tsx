@@ -91,59 +91,59 @@ export default function Page() {
     }
   ]
 
-  // const [issues, setIssues] = useState<getIssuesApiResponse>()
-  // const [regions, setRegions] = useState<getRegionsApiResponse>()
+  const [issues, setIssues] = useState<getIssuesApiResponse>()
+  const [regions, setRegions] = useState<getRegionsApiResponse>()
 
-  // const form = useForm<z.infer<typeof FormSchema>>({
-  //   resolver: zodResolver(FormSchema)
-  // })
+  const form = useForm<z.infer<typeof FormSchema>>({
+    resolver: zodResolver(FormSchema)
+  })
 
-  // useEffect(() => {
-  //   getOrganizations()
-  //   getIssues()
-  //   getRegions()
-  // }, [])
+  useEffect(() => {
+    getOrganizations()
+    getIssues()
+    getRegions()
+  }, [])
 
-  // async function getOrganizationsByIssue(issueId: string) {
-  //   try {
-  //     const response = await fetch(
-  //       `http://localhost:1337/api/issues/${issueId}?populate=*`
-  //     )
-  //     if (!response.ok) {
-  //       // Gestion des réponses d'erreur de l'API
-  //       throw new Error(`API call failed with status ${response.status}`)
-  //     }
+  async function getOrganizationsByIssue(issueId: string) {
+    try {
+      const response = await fetch(
+        `http://localhost:1337/api/issues/${issueId}?populate=*`
+      )
+      if (!response.ok) {
+        // Gestion des réponses d'erreur de l'API
+        throw new Error(`API call failed with status ${response.status}`)
+      }
 
-  //     const data = await response.json()
-  //     const issueTags = data.data.attributes.tags.data.map(item => item.id)
+      const data = await response.json()
+      // const issueTags = data.data.attributes.tags.data.map(item => item.id)
 
-  //     //Récupérer toutes les associations avec ces tags
-  //   } catch (error) {}
-  // }
+      //Récupérer toutes les associations avec ces tags
+    } catch (error) {}
+  }
 
-  // function onSubmit(data: z.infer<typeof FormSchema>) {
-  //   getOrganizationsByIssue(data.issueId)
-  // }
+  function onSubmit(data: z.infer<typeof FormSchema>) {
+    getOrganizationsByIssue(data.issueId)
+  }
 
-  // const getOrganizations = async () => {
-  //   const response = await fetch(
-  //     'http://localhost:1337/api/organizations?populate=*'
-  //   )
-  //   const data = await response.json()
-  //   setOrganizations(data)
-  // }
+  const getOrganizations = async () => {
+    const response = await fetch(
+      'http://localhost:1337/api/organizations?populate=*'
+    )
+    const data = await response.json()
+    setOrganizations(data)
+  }
 
-  // const getIssues = async () => {
-  //   const response = await fetch('http://localhost:1337/api/issues?populate=*')
-  //   const data = await response.json()
-  //   setIssues(data)
-  // }
+  const getIssues = async () => {
+    const response = await fetch('http://localhost:1337/api/issues?populate=*')
+    const data = await response.json()
+    setIssues(data)
+  }
 
-  // const getRegions = async () => {
-  //   const response = await fetch('http://localhost:1337/api/regions?populate=*')
-  //   const data = await response.json()
-  //   setRegions(data)
-  // }
+  const getRegions = async () => {
+    const response = await fetch('http://localhost:1337/api/regions?populate=*')
+    const data = await response.json()
+    setRegions(data)
+  }
 
   return (
     <div>
