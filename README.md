@@ -1,14 +1,6 @@
 # VIT+ API
 
-Hello, I'm Leonardo, and for my final year project, I am developing the platform for the Vit+ project.
-
-Vit+ is an association that harnesses the power of digital technology to offer crucial support to young people aged 12 to 25 placed in foster homes or foster families. Our mission is to provide them with a space where they can express themselves, find support, access information, and thrive. To achieve this, we have created a YouTube channel, a website, and we organize video workshops in foster homes.
-
-The platform will have the following features:
-
-Propose a video idea: This feature allows young people in foster care to suggest video ideas, addressing their need for self-expression.
-
-Hello moi c'est Leonardo, et pour mon projet de fin d'étude je développe la plateforme pour le projet vit+
+Hello moi c'est Leonardo, et pour mon projet de fin d'étude je développe la plateforme pour le projet vit+.
 Vit+ est une association qui utilise le pouvoir du numérique pour offrir un soutien crucial aux jeunes de 12 à 25 ans placés en foyers ou familles d'accueil. Notre mission est de leur fournir un espace où ils peuvent s'exprimer, trouver du soutien, s'informer et s'épanouir. Pour ce faire, nous avons créé une chaine YouTube, un site web et nous organisons des ateliers vidéos dans les foyers.
 
 Notre chaine youtube 👉🏿 https://www.youtube.com/@videosinformationstransmis8544/videos
