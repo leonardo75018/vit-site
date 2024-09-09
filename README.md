@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# VIT+ API
 
-## Getting Started
+Hello, I'm Leonardo, and for my final year project, I am developing the platform for the Vit+ project.
 
-First, run the development server:
+Vit+ is an association that harnesses the power of digital technology to offer crucial support to young people aged 12 to 25 placed in foster homes or foster families. Our mission is to provide them with a space where they can express themselves, find support, access information, and thrive. To achieve this, we have created a YouTube channel, a website, and we organize video workshops in foster homes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The platform will have the following features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Propose a video idea: This feature allows young people in foster care to suggest video ideas, addressing their need for self-expression.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Hello moi c'est Leonardo, et pour mon projet de fin d'étude je développe la plateforme pour le projet vit+
+Vit+ est une association qui utilise le pouvoir du numérique pour offrir un soutien crucial aux jeunes de 12 à 25 ans placés en foyers ou familles d'accueil. Notre mission est de leur fournir un espace où ils peuvent s'exprimer, trouver du soutien, s'informer et s'épanouir. Pour ce faire, nous avons créé une chaine YouTube, un site web et nous organisons des ateliers vidéos dans les foyers.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Notre chaine youtube 👉🏿 https://www.youtube.com/@videosinformationstransmis8544/videos
 
-## Learn More
+La plateforme aura les suivantes fonctionnalités :
 
-To learn more about Next.js, take a look at the following resources:
+- Qui peut m’aider ! :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - Permet aux utilisateurs de rechercher des associations et organismes offrant un soutien en fonction de leur situation spécifique.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  - Les utilisateurs peuvent spécifier leur situation, comme le refus de contrat jeune majeur, le sans-abrisme, la recherche de logement, etc.
 
-## Deploy on Vercel
+  - Affiche une liste d'organismes pertinents avec leurs coordonnées.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Événements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - Répertorie les événements organisés par des associations ou organismes susceptibles d'aider les jeunes de la protection à l’enfance.
+  - Les événements sont classés par date et peuvent être filtrés par type (ex : ateliers, rencontres, formations, etc.).
+  - Affiche les détails de chaque événement, y compris la date, l'heure, le lieu et une brève description.
+
+- Proposer des idées de vidéos
+- Permet aux utilisateurs de soumettre des idées de vidéos pour le média VIT+.
+- Les utilisateurs peuvent fournir un titre et une description de leur idée de vidéo.
+- Les soumissions sont envoyées a VIT+ et par la suite l’utilisateur peut suivre le statu de son idée
+
+- Associations
+- Présente des informations sur les associations susceptibles d'aider les jeunes de la protection à l’enfance.
+- Comprend une description de chaque association, des vidéos, des photos et des événements pertinents.
+
+## Table des Matières
+
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Contribuer](#contribuer)
+- [Licence](#licence)
+- [Auteurs](#auteurs)
+- [Remerciements](#remerciements)
+
+## Installation
