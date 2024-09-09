@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .hero-search-section {
+    margin-bottom: 100px;
+    height: 450px;
+  }
+
+  .organizations-section {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .organization-item {
+    padding: 20px;
+  }
+
+  .organization-item p {
+    padding: 10px 0 10px 0;
+  }
+
+  .hero-search-section-item-content h2,
+  p {
+    font-size: 20px;
+  }
+}

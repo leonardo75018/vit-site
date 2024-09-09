@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  color-scheme: #ffffff;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  text-align: center;
+}
+
+.hero-section {
+  background: #f8f9fa;
+  height: 35rem;
+}
+
+.hero-item {
+  width: 50%;
+}
+
+.collection-list {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  justify-content: flex-start;
+  align-items: stretch;
+  display: flex;
+  border-radius: 25px;
+}
+
+.collection-list img {
+  height: 100%;
+  border-radius: 25px;
+}
+
+.overflow-item {
+  width: 200px;
+}
+
+/* .overflow {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+}  */
+
+/* Footer */
+.footer-item-section button {
+  width: 200px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+/* Responvise */
+
+@media (max-width: 768px) {
+  nav {
+    padding-bottom: 300px;
+  }
+
+  nav ul,
+  a {
+    font-size: 20px;
+  }
+
+  .hero-section {
+    margin-bottom: 100px;
+  }
+  .hero-section-content {
+    display: flex;
+    width: 100%;
+    padding-top: 200px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-item {
+    width: 100%;
+  }
+  .hero-item-1 h1 {
+    text-align: center;
+  }
+
+  .hero-item p {
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+  }
+
+  .discover-section {
+  }
+
+  /* Footer */
+
+  footer {
+    min-height: 350px;
+  }
+
+  .footer-item-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-item-section p {
+    width: 200px;
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+
+  .inscription-section p:first-of-type {
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .follow-section div p {
+    padding: 20px 0 20px 0;
+  }
+
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid black;
+  }
+}
