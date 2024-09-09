@@ -14,24 +14,24 @@ import {
 
 import React, { FC, useEffect, useState } from 'react'
 
-function Page({ params }) {
-  const { id } = params
+function Page() {
+  // const { id } = params
 
-  const [organization, setOrganization] = useState<GetOrganizationApiResponse>()
-  const [isLoading, setIsLoading] = useState(true)
+  // const [organization, setOrganization] = useState<GetOrganizationApiResponse>()
+  // const [isLoading, setIsLoading] = useState(true)
 
-  const getOrganization = async () => {
-    const response = await fetch(
-      `http://localhost:1337/api/organizations/${id}?populate=*`
-    )
-    const data = await response.json()
-    setOrganization(data)
-    setIsLoading(false)
-  }
+  // const getOrganization = async () => {
+  //   const response = await fetch(
+  //     `http://localhost:1337/api/organizations/${id}?populate=*`
+  //   )
+  //   const data = await response.json()
+  //   setOrganization(data)
+  //   setIsLoading(false)
+  // }
 
-  useEffect(() => {
-    getOrganization()
-  })
+  // useEffect(() => {
+  //   getOrganization()
+  // })
 
   return (
     <div className="max-container">
