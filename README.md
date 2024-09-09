@@ -3,7 +3,7 @@
 Hello moi c'est Leonardo, et pour mon projet de fin d'étude je développe la plateforme pour le projet vit+.
 Vit+ est une association qui utilise le pouvoir du numérique pour offrir un soutien crucial aux jeunes de 12 à 25 ans placés en foyers ou familles d'accueil. Notre mission est de leur fournir un espace où ils peuvent s'exprimer, trouver du soutien, s'informer et s'épanouir. Pour ce faire, nous avons créé une chaine YouTube, un site web et nous organisons des ateliers vidéos dans les foyers.
 
-Notre chaine youtube 👉🏿 https://www.youtube.com/@videosinformationstransmis8544/videos
+- Notre chaine youtube 👉🏿 https://www.youtube.com/@videosinformationstransmis8544/videos
 
 La plateforme aura les suivantes fonctionnalités :
 
@@ -31,3 +31,5 @@ La plateforme aura les suivantes fonctionnalités :
 
   - Présente des informations sur les associations susceptibles d'aider les jeunes de la protection à l’enfance.
   - Comprend une description de chaque association, des vidéos, des photos et des événements pertinents.
+
+- Cahier de charge : https://oxymis-my.sharepoint.com/:w:/g/personal/l_maundo_stu-digital-campus_fr/EWI6pNspZuJKrBOvxV5dVeIBobaam7B3ycw2AN-u5Bv_IQ?e=eomI0p
