@@ -4,6 +4,7 @@ Hello moi c'est Leonardo, et pour mon projet de fin d'étude je développe la pl
 Vit+ est une association qui utilise le pouvoir du numérique pour offrir un soutien crucial aux jeunes de 12 à 25 ans placés en foyers ou familles d'accueil. Notre mission est de leur fournir un espace où ils peuvent s'exprimer, trouver du soutien, s'informer et s'épanouir. Pour ce faire, nous avons créé une chaine YouTube, un site web et nous organisons des ateliers vidéos dans les foyers.
 
 - Notre chaine youtube 👉🏿 https://www.youtube.com/@videosinformationstransmis8544/videos
+- Site en construction 👉🏿 https://vit-site-leonardo755s-projects.vercel.app/
 
 La plateforme aura les suivantes fonctionnalités :
 
